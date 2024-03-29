@@ -2,36 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <!-- menu  -->
-      <nav>
+      <nav class="navigation">
         <!-- logo -->
-        <a href="./index.html">WebStudio</a>
+        <a class="logo" href="./index.html"><span class="web-color">Web</span>Studio</a>
         <ul>
-          <li><a href="/Studio/">Studio</a></li>
-          <li><a href="/Portfolio/">Portfolio</a></li>
-          <li><a href="/Contacts/">Contacts</a></li>
+          <li><a class="menu" href="/Studio/">Studio</a></li>
+          <li><a class="menu" href="/Portfolio/">Portfolio</a></li>
+          <li><a class="menu" href="/Contacts/">Contacts</a></li>
         </ul>
       </nav>
       <!-- contacts: mail amd phone -->
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li><a class="contact-info" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="contact-info" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <!-- Section0 -->
+      <section class="hero-section">
+        <h1 class="hero-header">Effective Solutions for Your Business</h1>
+        <button class="button" type="button">Order Service</button>
       </section>
       <!-- Section1 -->
-      <section>
+      <section class="section-featre">
         <h2 hidden>Features</h2>
         <ul>
           <li>
@@ -66,8 +70,8 @@
       </section>
       <!-- Section2 -->
       <section>
-        <h2>Our Team</h2>
-        <ul>
+        <h2 class="team-header">Our Team</h2>
+        <ul class="section-team">
           <li>
             <img
               src="./images/team_card1.jpg"
@@ -110,10 +114,76 @@
           </li>
         </ul>
       </section>
+      <!-- Section3 -->
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul class="section-portfolio">
+          <li>
+            <img 
+            src="./images/row1card1.jpg" 
+            alt="bank app screen" 
+            width="360" 
+            height="300"/>
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img 
+            src="./images/row1card2.jpg" 
+            alt="payment with phone process" 
+            width="360" 
+            height="300"/>
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img 
+            src="./images/row1card3.jpg" 
+            alt="meditation app screen" 
+            width="360" 
+            height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img 
+            src="./images/row2card1.jpg" 
+            alt="inside th vihacle picture" 
+            width="360" 
+            height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img 
+            src="./images/row2card2.jpg" 
+            alt="phone app desine with moon" 
+            width="360" 
+            height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img 
+            src="./images/row2card3.jpg" 
+            alt="woman learnig via application" 
+            width="360" 
+            height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer>
+    <footer class="section-footer">
       <!-- logo -->
-      <a href="./index.html">WebStudio</a>
+      <a class="logo" href="./index.html"><span class="web-color">Web</span>Studio</a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.

@@ -24,6 +24,10 @@ a.menu, a.contact-info, .logo {
 
 .navigation {
     color:#2E2F42;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.17; /* 21/18 */
+    letter-spacing: 0.03em;
 }
 
 .menu {
@@ -99,14 +103,6 @@ a.menu, a.contact-info, .logo {
     letter-spacing: 0.02em;
 }
 
-.navigation {
-    color:#2E2F42;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1.17; /* 21/18 */
-    letter-spacing: 0.03em;
-}
-
-.logo .studio-color {
+.section-footer .logo .studio-color {
   color: #ffffff ;
 }

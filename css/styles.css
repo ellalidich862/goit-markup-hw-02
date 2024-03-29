@@ -46,7 +46,7 @@ a.menu, a.contact-info, .logo {
     letter-spacing: 0.02em;
 }
 
-.menu:hover, menu:active, .contact-info:hover, .contact-info:focus {
+.menu:hover, menu:focus, menu:active, .contact-info:hover, .contact-info:focus {
   color: #404BBF;
 }
 
@@ -67,11 +67,12 @@ a.menu, a.contact-info, .logo {
     background-color:#4D5AE5; 
     cursor: pointer; 
     font-size: 16px;
-    font-family: 500;
+    font-weight: 500;
     letter-spacing: 0.04em;
+    line-height: 1.5;
 }
 
-.button:hover {
+.button:hover, button:focus {
     color:#ffffff;
     background-color:#404BBF;
 }

@@ -38,9 +38,12 @@ a.menu, a.contact-info, .logo {
   letter-spacing: 0.02em;
 }
 
+.contact-info {
+    font-style: normal;
+}
+
 .contact-item {
     color: #434455; 
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;

@@ -38,7 +38,7 @@ a.menu, a.contact-info, .logo {
   letter-spacing: 0.02em;
 }
 
-.contact-info {
+.contact-item {
     color: #434455; 
     font-style: normal;
     font-size: 16px;
@@ -46,7 +46,19 @@ a.menu, a.contact-info, .logo {
     letter-spacing: 0.02em;
 }
 
-.menu:hover, menu:focus, menu:active, .contact-info:hover, .contact-info:focus {
+.menu:hover, menu:active {
+  color: #404BBF;
+}
+
+.menu:focus {
+  color: #404BBF;
+}
+
+.contact-item:hover {
+  color: #404BBF;
+}
+
+.contact-item:focus {
   color: #404BBF;
 }
 
@@ -77,19 +89,36 @@ a.menu, a.contact-info, .logo {
     background-color:#404BBF;
 }
 
-.section-featre {
-    line-height: 24px;
+.item-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    color:#2E2F42;
 }
 
-.team-header {
-    line-height: 40;
+.item-text {
+    color: #434455; 
+    font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .section-team {
-    line-height: 24px;
+    background-color: #f4f4fd;
+}
+
+.section-header {
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-item {
+    background-color: #ffffff;
 }
 
 .section-portfolio {
@@ -100,10 +129,14 @@ a.menu, a.contact-info, .logo {
 .section-footer {
     color:#ffffff;
     background-color:#2e2f42; 
-    line-height: 24px;
-    letter-spacing: 0.02em;
 }
 
 .section-footer .logo .studio-color {
-  color: #ffffff ;
+  color: #f4f4fd ;
+}
+
+.footer-text {
+    color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
